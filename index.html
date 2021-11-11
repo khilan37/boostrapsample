@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="asset/bootstrap.css">
+    <script src="asset/bootstrap.js"></script>
+    <link rel="stylesheet" href="asset/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark navbar-expand-sm bg-dark fixed-top">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">NUM.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas w-100 offcanvas-end bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header justify-content-end">
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav text-center justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a href="#" aria-current="page" class="nav-link active">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" aria-current="page" class="nav-link active">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" aria-current="page" class="nav-link active">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" aria-current="page" class="nav-link active">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container slider">
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-center">
+                <div id="carouselExampleSlidesOnly" class="carousel carousel-dark carousel-fade slide w-75" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner " data-bs-interval="1000">
+                      <div class="carousel-item active">
+                        <img src="img/one.jpg" class="d-block  w-100" alt="...">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1>slide 1</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, at.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="1000">
+                        <img src="img/two.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1>slide 2</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, at.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="1000">
+                        <img src="img/three.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1>slide 3</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, at.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="1000">
+                        <img src="img/abdul-barie-q0HdSgdNBNM-unsplash.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1>slide 4</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, at.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="1000">
+                        <img src="img/balkouras-nicos-ncOQxZe8Krw-unsplash.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1>slide 5</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, at.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <a href="#carouselExampleSlidesOnly" class="carousel-control-prev bg-light" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a href="#carouselExampleSlidesOnly" class="carousel-control-next bg-light" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="about bg-info pb-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col border border-dark border-top-0 border-start-0 border-end-0 mt-4 pb-5">
+                    <h1 class="text-center p-3">About Me!</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam adipisci qui excepturi nisi ipsa ab esse autem rerum totam natus quaerat, vel sed non nemo incidunt saepe doloribus! Architecto nostrum, labore exercitationem dicta error, eveniet consequuntur in expedita eligendi non nesciunt, excepturi nam provident.</p>
+                    <button class="btn-outline-dark btn p-2">Know More</button>
+                </div>
+            </div>
+            <div class="what border border-dark border-top-0 border-start-0 border-end-0 p-4">
+                <div class="row">
+                    <div class="col">
+                        <h1 class="text-center">What I do?</h1>
+                    </div>
+                </div>
+                <div class="bg-danger p-4 mt-4">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="logo">
+                                <h3 class="text-center">Logo Designer</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam architecto explicabo amet. Inventore voluptatem dolorem recusandae. Eius.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="logo">
+                                <h3 class="text-center">Web Developer</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam architecto explicabo amet. Inventore voluptatem dolorem recusandae. Eius.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <h3 class="text-center">Lorem</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam architecto explicabo amet. Inventore voluptatem dolorem recusandae. Eius.</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="summary mt-4 mb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="text-center">Resume</h1>
+                </div>
+            </div>
+            <div class="summary-wrap mt-4">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h3 class="text-center p-3 p-sm-0">My Education</h3>
+                        <div class="box bg-light mt-3 p-3">
+                            <p class="bg-danger d-inline-block p-1">2000-2004</p>
+                            <h3>Computer Science</h3>
+                            <p class="text-success">Internation University</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptates doloremque nemo, nisi adipisci exercitationem?</p>
+                        </div>
+                        <div class="box bg-light mt-2 p-3">
+                            <p class="bg-danger d-inline-block p-1">2005-2008</p>
+                            <h3>Computer Engineering Degree</h3>
+                            <p class="text-success">GEC Modasa</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptates doloremque nemo, nisi adipisci exercitationem?</p>
+                        </div>
+                        <div class="box bg-light mt-2 p-3">
+                            <p class="bg-danger d-inline-block p-1">2009-2012</p>
+                            <h3>Master Degree</h3>
+                            <p class="text-success">Harvard University</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptates doloremque nemo, nisi adipisci exercitationem?</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <h3 class="text-center p-3 p-sm-0">My Experience</h3>
+                        <div class="box bg-light mt-3 p-3">
+                            <p class="bg-danger d-inline-block p-1">2012-2013</p>
+                            <h3>Logo design</h3>
+                            <p class="text-success">Freelancer</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptates doloremque nemo, nisi adipisci exercitationem?</p>
+                        </div>
+                        <div class="box bg-light mt-2 p-3">
+                            <p class="bg-danger d-inline-block p-1">2014-2016</p>
+                            <h3>Web developer</h3>
+                            <p class="text-success">Dribble</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptates doloremque nemo, nisi adipisci exercitationem?</p>
+                        </div>
+                        <div class="box bg-light mt-2 p-3">
+                            <p class="bg-danger d-inline-block p-1">2017-2019</p>
+                            <h3>Product Desinger</h3>
+                            <p class="text-success">Adobe</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptates doloremque nemo, nisi adipisci exercitationem?</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+        </div>
+        <div class="button mt-4 text-center">
+        <button class="btn btn-outline-success">Download CV</button>
+        </div>
+    </div>
+    <div class="contact bg-info p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="text-center pb-4">Get in Touch!</h1>
+                </div>
+            </div>
+            <div class="bg-danger p-4 rounded-2">
+                <div class="row">
+                    <div class="col-sm-4 text-center text-sm-start">
+                        <h3>Address</h3>
+                        <p>4th Floor, plot No.22,<br/>
+                        145 murphy canyan RD,<br/>
+                        san Diego CA 2028</p>
+                        <p>444 434 444</p>
+                        <p>555 545 555</p>
+                        <p>chat@slamon.com</p>
+                    </div>
+                    <div class="col-sm-8">
+                        <h3 class="text-center text-sm-start pt-sm-0 pt-3">Send Us Note</h3>
+                        <form action="">
+                            <div class="mb-3">
+                                <label for="input1" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="input1" placeholder="Name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="input2" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="input2" placeholder="name@example.com">   
+                            </div>
+                            <div class="mb-3">
+                                <label for="input3" class="form-label">Email Address</label>
+                                <textarea  id="input3" class="form-control" placeholder="tell us about your needs...." rows="5"></textarea>
+                            </div>
+                            <div class="button text-center">
+                                <button class="btn btn-outline-info rounded-pill pe-5 ps-5 pt-2 pb-2">Send message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="p-3 text-center text-white">
+        <p class="m-0">© Copyright Random code</p>
+        <p class="mt-2 mb-0">Designed by <a href="#">Random code</a></p>
+    </footer>
+</body>
+</html>

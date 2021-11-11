@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(51, 42, 42);
+    color: black;
+}
+.carousel-item img{
+    height: 500px;
+}
+.slider{
+    margin-top: 80px;
+}
+.bg{
+    background-color: brown;
+}
+@media screen and (max-width:990px) {
+    .carousel-item img{
+        height: 400px;
+    }
+}
+@media screen and (max-width:768px) {
+    .carousel-item img{
+        height: 100%;
+    }
+}
